@@ -33,3 +33,6 @@ gpg --always-trust -e -r "Trent" users.csv
 
 gpg -d users.csv.gpg
 gpg --batch -passphrase demo users.csv.gpg
+
+
+Conclusion:The advantages of this strategy should not be taken lightly, since re-implementing such tools in Solidity is often unfeasible and almost always less secure, given that it will inevitably lack the maturity and stability that comes with decades of usage and refinement.
